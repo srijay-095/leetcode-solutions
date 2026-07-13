@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/srijay-095/leetcode-solutions/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/srijay-095/leetcode-solutions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/srijay-095/leetcode-solutions/tree/master/0018-4sum) |
+| [0048-rotate-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/srijay-095/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0119-pascals-triangle-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/0119-pascals-triangle-ii) |
 | [0169-majority-element](https://github.com/srijay-095/leetcode-solutions/tree/master/0169-majority-element) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/srijay-095/leetcode-solutions/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0231-power-of-two](https://github.com/srijay-095/leetcode-solutions/tree/master/0231-power-of-two) |
 ## Two Pointers
 |  |
@@ -58,4 +60,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/srijay-095/leetcode-solutions/tree/master/0231-power-of-two) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
