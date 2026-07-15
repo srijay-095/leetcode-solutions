@@ -1,18 +1,23 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& nums, int target) {
+    vector<int> searchRange(vector<int>& nums, int x) {
         int n=nums.size();
-        int f=-1;
-        int l=-1;
-        for(int i=0;i<n;i++)
+        auto l =lower_bound(nums.begin(),nums.end(),x);
+        int lb=l-nums.begin();
+        auto u= upper_bound(nums.begin(),nums.end(),x);
+        int ub=u-nums.begin();
+        ub--;
+        if(lb==n || nums[lb]!=x)
         {
-            if(nums[i]==target)
-            {
-                if(f==-1) f=i;
-                l=i;
-            }
+           return {-1,-1};
         }
-        return {f,l};
+        else 
+        {   
+            return {lb,ub};
+        }
+
+
+
         
     }
 };
