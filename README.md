@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/srijay-095/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/srijay-095/leetcode-solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/0229-majority-element-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/srijay-095/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -82,4 +83,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/srijay-095/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/srijay-095/leetcode-solutions/tree/master/0162-find-peak-element) |
+| [0540-single-element-in-a-sorted-array](https://github.com/srijay-095/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 <!---LeetCode Topics End-->
