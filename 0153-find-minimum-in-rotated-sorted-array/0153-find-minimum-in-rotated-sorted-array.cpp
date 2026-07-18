@@ -5,6 +5,7 @@ public:
         int low=0;
         int high =n-1;
         int ans=INT_MAX;
+        if(nums[low]<=nums[high]) return nums[low];
         while(low<=high)
         {
             int mid=low-(low-high)/2;
