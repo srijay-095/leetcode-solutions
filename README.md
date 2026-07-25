@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/srijay-095/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/srijay-095/leetcode-solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/0229-majority-element-ii) |
+| [3536-maximum-product-of-two-digits](https://github.com/srijay-095/leetcode-solutions/tree/master/3536-maximum-product-of-two-digits) |
 ## Counting
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0231-power-of-two](https://github.com/srijay-095/leetcode-solutions/tree/master/0231-power-of-two) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/srijay-095/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3536-maximum-product-of-two-digits](https://github.com/srijay-095/leetcode-solutions/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/srijay-095/leetcode-solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Two Pointers
 |  |
