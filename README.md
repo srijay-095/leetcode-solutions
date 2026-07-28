@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-magnetic-force-between-two-balls](https://github.com/srijay-095/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1929-concatenation-of-array](https://github.com/srijay-095/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/srijay-095/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2643-row-with-maximum-ones](https://github.com/srijay-095/leetcode-solutions/tree/master/2643-row-with-maximum-ones) |
 | [2951-find-the-peaks](https://github.com/srijay-095/leetcode-solutions/tree/master/2951-find-the-peaks) |
 ## Dynamic Programming
 |  |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0048-rotate-image) |
+| [2643-row-with-maximum-ones](https://github.com/srijay-095/leetcode-solutions/tree/master/2643-row-with-maximum-ones) |
 ## Number Theory
 |  |
 | ------- |
