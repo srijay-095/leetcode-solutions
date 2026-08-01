@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/srijay-095/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/srijay-095/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0832-flipping-an-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0832-flipping-an-image) |
 | [0875-koko-eating-bananas](https://github.com/srijay-095/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/srijay-095/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/srijay-095/leetcode-solutions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -83,10 +84,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/srijay-095/leetcode-solutions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/srijay-095/leetcode-solutions/tree/master/0018-4sum) |
+| [0832-flipping-an-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0832-flipping-an-image) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/srijay-095/leetcode-solutions/tree/master/0231-power-of-two) |
+| [0832-flipping-an-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0832-flipping-an-image) |
 ## Recursion
 |  |
 | ------- |
@@ -97,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/srijay-095/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0832-flipping-an-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0832-flipping-an-image) |
 | [1901-find-a-peak-element-ii](https://github.com/srijay-095/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [2643-row-with-maximum-ones](https://github.com/srijay-095/leetcode-solutions/tree/master/2643-row-with-maximum-ones) |
 ## Number Theory
@@ -131,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0832-flipping-an-image](https://github.com/srijay-095/leetcode-solutions/tree/master/0832-flipping-an-image) |
 | [1929-concatenation-of-array](https://github.com/srijay-095/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Greedy
 |  |
