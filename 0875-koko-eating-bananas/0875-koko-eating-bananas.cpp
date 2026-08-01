@@ -1,31 +1,35 @@
 class Solution {
 public:
-long long reqtime(vector<int> nums,int mid)
-{
-    long long reqtime=0;
-    for(int i=0;i<nums.size();i++)
-    {   
-        reqtime+=(nums[i]+mid-1)/mid;
+bool pos(vector<int> nums,int mid,int h)
+{   
+    long long time=0;
+    int n=nums.size();
+    for(int i=0;i<n;i++)
+    {
+        time+=((nums[i]+mid-1)/mid);
     }
-    return reqtime;
+    if(time<=h) return true;
+    return false;
 }
-    int minEatingSpeed(vector<int>& nums, int h) {
-        int n=nums.size();
-        int m=INT_MIN;
+    int minEatingSpeed(vector<int>& piles, int h) {
+        int n=piles.size();
+        int maxi=INT_MIN;
+        long long sum=0;
         for(int i=0;i<n;i++)
         {
-            m=max(m,nums[i]);
+            maxi=max(maxi,piles[i]);
+            sum+=piles[i];
         }
         int low=1;
-        int high=m;
-        int ans;
+        int high=maxi;
+        int ans=high;
         while(low<=high)
         {
-            int mid=low-(low-high)/2;
-            if(reqtime(nums,mid)<=h)
+            int mid=low+(high-low)/2;
+            if(pos(piles,mid,h)==true)
             {
-                ans=mid;
                 high=mid-1;
+                ans=mid;
             }
             else
             {
