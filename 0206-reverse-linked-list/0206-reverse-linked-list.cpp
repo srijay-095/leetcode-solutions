@@ -10,30 +10,17 @@
  */
 class Solution {
 public:
-ListNode* convert(vector<int> arr)
-{
-    ListNode* head=new ListNode(arr[0],nullptr);
-    ListNode* mover=head;
-    for(int i=1;i<arr.size();i++)
-    {
-        ListNode* temp=new ListNode(arr[i],nullptr);
-        mover->next=temp;
-        mover=temp;
-    }
-    return head;
-}
     ListNode* reverseList(ListNode* head) {
-        if(head==NULL) return NULL;
-        if(head->next==NULL) return head;
-        vector<int> nums;
         ListNode* temp=head;
+        ListNode* prev=NULL;
+        ListNode* front;
         while(temp)
         {
-            nums.push_back(temp->val);
-            temp=temp->next;
+            front=temp->next;
+            temp->next=prev;
+            prev=temp;
+            temp=front;
         }
-        reverse(nums.begin(),nums.end());
-        head=convert(nums);
-    return head;
+       return prev; 
     }
 };
