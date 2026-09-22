@@ -10,64 +10,43 @@
  */
 class Solution {
 public:
-ListNode* rev(ListNode* head)
-{
-    ListNode* temp=head;
-    ListNode* prev =NULL;
-    ListNode* front=temp;
-    while(temp)
-    {
-        front=temp->next;
-        temp->next=prev;
-        prev=temp;
-        temp=front;
-    }
-   
-
-    return prev;
-}
-ListNode* del(ListNode* head,int n)
-{
-    if(n==1)
-    {
-        
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode* temp=head;
-        head=head->next;
-        temp->next=NULL;
-        delete(temp);
-        return head;
-
-    }
-    int c=1;
-    ListNode* temp=head;
-    ListNode* prev=NULL;
-    ListNode* front=temp->next;
-    while(temp)
-    {
-        if(c==n)
+        int l=0;
+        while(temp)
         {
-            prev->next=temp->next;
-            temp->next=NULL;
-            delete(temp);
-            return head;
+            l++;
+            temp=temp->next;
         }
-        else
+        int m=l-n;
+        int c=0;
+        temp=head;
+        ListNode* prev=NULL;
+
+        while(temp)
         {
-            c++;
-            
+            if(m==0)
+            {
+                temp=head;
+                head=head->next;
+                temp->next=NULL;
+                delete(temp);
+                return head;
+            }
+            if(c==m)
+            {
+                prev->next=temp->next;
+                
+                delete(temp);
+                return head;
+            }
             prev=temp;
             temp=temp->next;
-           
+            c++;
         }
-    }
-    return head;
-}
-    
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-        head=rev(head);
-        head=del(head,n);
-        head=rev(head);
-   return head;
+        return head;
+
         
+
     }
 };
